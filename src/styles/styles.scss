@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css?family=EB+Garamond&display=swap");
 
 //colors
 $white: #fff;
@@ -10,17 +10,19 @@ $off-white: #f2f4f5;
 
 html,
 body {
-  font-family: Poppins;
+  font-family: Playfair Display;
   font-size: 18px;
   max-width: 100%;
+  padding: 0px;
+  margin: 0px;
   overflow-x: hidden;
 }
 h1 {
-  font-family: EB Garamond;
+  font-family: Playfair Display;
   font-size: 100px;
 }
 h2 {
-  font-family: EB Garamond;
+  font-family: Playfair Display;
   font-size: 35px;
 }
 
@@ -89,15 +91,14 @@ header {
   align-items: center;
   background-color: #29292a;
   position: relative;
-  height: 100vh;
+  height: 95vh;
   .row {
     position: relative;
     .maintext {
       margin-top: -10px;
-      font-family: EB Garamond;
-      text-transform: capitalize;
+      font-family: poppins;
       letter-spacing: 10px;
-      font-weight: 400;
+      font-weight: 500;
       color: $off-white;
       position: absolute;
       width: 100%;
@@ -112,4 +113,13 @@ header {
       }
     }
   }
+}
+
+.bottomcontact {
+  position: relative;
+  text-align: right;
+  letter-spacing: 7px;
+  color: $off-white;
+  text-transform: uppercase;
+  bottom: -43vh;
 }

@@ -7,7 +7,10 @@ const Banner = () => {
     <div className="banner">
       <div className="container">
         <div className="row">
-          <h1 className="maintext">Damn That was fast..</h1>
+          <h1 className="maintext">Damn that was fast..</h1>
+          <div className="bottomcontact">
+            <spam>message</spam>
+          </div>
         </div>
       </div>
     </div>
