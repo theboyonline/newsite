@@ -1,16 +1,17 @@
 import React from "react"
+import Scrollbar from "smooth-scrollbar"
 //scss
 import "../styles/styles.scss"
 import Header from "../components/header"
 import Banner from "../components/banner"
 import SecondSec from "../components/SecondSec"
-import thirdsec from "../components/thirdsec"
+import Thirdsec from "../components/Thirdsec"
 const IndexPage = () => (
   <div>
     <Header />
     <Banner />
     <SecondSec />
-    <thirdsec />
+    <Thirdsec />
   </div>
 )
 

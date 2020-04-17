@@ -132,8 +132,7 @@ header {
 
 //SeondSec
 .SecondSec {
-  background-image: url(../images/imagered1.jpg);
-  opacity: 0.8;
+  background-color: $off-white;
   display: flex;
   padding: 70px;
   align-items: center;
@@ -142,14 +141,43 @@ header {
   .container {
     .row {
       .col-1 {
-        width: 70%;
-        color: $off-white;
+        width: 100%;
+        color: $black;
         .btn {
+          display: inline-block;
           padding: 1px;
           text-align: center;
-          color: $black;
+          color: $white;
           width: 30%;
-          background-color: $off-white;
+          background-color: $black;
+        }
+      }
+    }
+  }
+}
+
+//thirdsec
+.Thirdsec {
+  background-image: url(../images/imagered.jpg);
+  background-color: $off-white;
+  display: flex;
+  padding: 70px;
+  align-items: center;
+  text-align: right;
+  position: relative;
+  height: 80vh;
+  .container {
+    .row {
+      .col-1 {
+        width: 100%;
+        color: $off-white;
+        .btn {
+          display: inline-block;
+          padding: 1px;
+          text-align: center;
+          color: $white;
+          width: 30%;
+          background-color: $black;
         }
       }
     }

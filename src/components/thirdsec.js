@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import img from "gatsby-image"
 
-const thirdsec = () => (
+const Thirdsec = () => (
   <>
-    <div className="thirdsec">
+    <div className="Thirdsec">
       <div className="container">
         <div className="row">
           <div className="col-1">
@@ -30,5 +30,4 @@ const thirdsec = () => (
     </div>
   </>
 )
-
-export default thirdsec
+export default Thirdsec
