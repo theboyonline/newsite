@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import img from "gatsby-image"
+import Img from "gatsby-image"
 
 const Thirdsec = () => (
   <>
@@ -30,4 +30,5 @@ const Thirdsec = () => (
     </div>
   </>
 )
+
 export default Thirdsec
