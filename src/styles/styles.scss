@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 //colors
 $white: #fff;
@@ -7,23 +7,29 @@ $fontblack: #29292a;
 $black: #000;
 $maroon: #83333e;
 $off-white: #f2f4f5;
+$btn: #29292a;
 
 html,
 body {
-  font-family: Playfair Display;
+  font-family: Open Sans;
   font-size: 18px;
   max-width: 100%;
   padding: 0px;
-  margin: 0px;
+  margin: 1px;
   overflow-x: hidden;
 }
 h1 {
-  font-family: Playfair Display;
-  font-size: 100px;
+  font-family: Open Sans;
+  font-size: 30px;
 }
 h2 {
-  font-family: Playfair Display;
+  font-family: open sans;
   font-size: 35px;
+}
+h4 {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 200;
 }
 
 .container {
@@ -97,15 +103,15 @@ header {
     .maintext {
       margin-top: -10px;
       font-family: poppins;
-      letter-spacing: 10px;
-      font-weight: 500;
+      letter-spacing: 5px;
+      font-weight: 400;
       color: $off-white;
       position: absolute;
       width: 100%;
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      text-align: center;
+      text-align: left;
       z-index: 9;
       @media (max-width: 1080px) {
         font-size: 35px;
@@ -122,4 +128,30 @@ header {
   color: $off-white;
   text-transform: uppercase;
   bottom: -43vh;
+}
+
+//SeondSec
+.SecondSec {
+  background-image: url(../images/imagered.jpg);
+  opacity: 0.8;
+  display: flex;
+  padding: 70px;
+  align-items: center;
+  position: relative;
+  height: 80vh;
+  .container {
+    .row {
+      .col-1 {
+        width: 70%;
+        color: $off-white;
+        .btn {
+          padding: 1px;
+          text-align: center;
+          color: $black;
+          width: 30%;
+          background-color: $off-white;
+        }
+      }
+    }
+  }
 }

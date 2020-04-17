@@ -3,13 +3,14 @@ import React from "react"
 import "../styles/styles.scss"
 import Header from "../components/header"
 import Banner from "../components/banner"
-import section2 from "../components/section2"
-
+import SecondSec from "../components/SecondSec"
+import thirdsec from "../components/thirdsec"
 const IndexPage = () => (
   <div>
     <Header />
     <Banner />
-    <section2 />
+    <SecondSec />
+    <thirdsec />
   </div>
 )
 
