@@ -8,6 +8,7 @@ const Thirdsec = () => (
       <div className="container">
         <div className="row">
           <div className="col-1">
+            <Img fluid={data.imagered.childImageSharp.fluid} alt="imagered" />
             <h1>Hi from the Second Section</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -32,3 +33,15 @@ const Thirdsec = () => (
 )
 
 export default Thirdsec
+
+export const query = graphql`
+  query {
+    image1: file(relativePath: { eq: "imagered.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid_withWebp
+        }
+      }
+    }
+  }
+`
